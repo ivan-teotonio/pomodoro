@@ -1,5 +1,6 @@
 
 import { Heading } from './components/Heading';
+import { AlarmClock } from 'lucide-react';
 
 import './styles/theme.css';
 import './styles/global.css';
@@ -7,7 +8,13 @@ import './styles/global.css';
 export function App() {
     return (
         <>
-           <Heading attr={123} attr2="texto">Olá mundo</Heading>
+           <Heading>
+            Olá mundos 1 
+            <button>
+                <AlarmClock />
+            </button>
+
+           </Heading>
             <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit.
             Doloribus temporibus id fuga itaque laudantium ea, pariatur 
