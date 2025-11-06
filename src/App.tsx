@@ -1,10 +1,9 @@
+//import { Home } from './pages/Home';
 
-
-
+import './styles/theme.css';
+import './styles/global.css';
 import { Home } from './pages/Home';
 
-import './styles/theme.css';    
-import './styles/global.css';
 
 export function App() {
   // Que todos os componentes que usan numero
@@ -24,5 +23,4 @@ export function App() {
   //    setNumero(1);
   // }
   return <Home />;
-    
 }
